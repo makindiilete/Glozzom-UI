@@ -92,11 +92,11 @@ align-baseline,top,middle,bottom,text-top,text-bottom : Vertical alignment of in
                         <div class="card-body">
                             <h4>Please fill out this form to contact us</h4>
                             <hr>
-                            <form>
+                            <form name="contact" method="POST" data-netlify="true">
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="firstname" class="sr-only">First Name</label>
-                                        <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                                        <input type="text" class="form-control" id="firstname" placeholder="First Name" name="first-name">
 
                                     </div>
 
@@ -105,7 +105,7 @@ align-baseline,top,middle,bottom,text-top,text-bottom : Vertical alignment of in
                                 
                                         <div class="form-group col-md-6">
                                             <label for="lastname" class="sr-only">Last Name</label>
-                                            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                                            <input type="text" class="form-control" id="lastname" placeholder="Last Name" name="last-name">
     
                                         </div>
     
@@ -114,7 +114,7 @@ align-baseline,top,middle,bottom,text-top,text-bottom : Vertical alignment of in
                                     <div class="form-row">
                                             <div class="form-group col-md-6">
                                                 <label for="phonenumber" class="sr-only">Phone Number</label>
-                                                <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number">
+                                                <input type="number" class="form-control" id="phonenumber" placeholder="Phone Number" name="phone">
         
                                             </div>
         
@@ -123,7 +123,7 @@ align-baseline,top,middle,bottom,text-top,text-bottom : Vertical alignment of in
                                         
                                                 <div class="form-group col-md-6">
                                                     <label for="email" class="sr-only">Email</label>
-                                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
             
                                                 </div>
             
@@ -131,7 +131,7 @@ align-baseline,top,middle,bottom,text-top,text-bottom : Vertical alignment of in
 
                                             <div class="form-row">
                                                     <div class="form-group col-md-12">
-                                                    <textarea class="form-control" placeholder="Message"></textarea>
+                                                    <textarea class="form-control" placeholder="Message" name="message"></textarea>
                                                     </div>
                     
                                                     </div>
