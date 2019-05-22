@@ -1,0 +1,323 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Glozzom Boostrap 4 Theme</title>
+</head>
+<body id="home">
+
+<!-- BOOTSTRAP ALIGNMENT
+text-left,center,right : For text alignment
+align-self-start,center,end : Vertical alignment for columns 
+align-items-start,center,end : Vertical alignment for rows
+justify-content-start,center,end : Horizontal alignment for rows
+align-baseline,top,middle,bottom,text-top,text-bottom : Vertical alignment of inline, inline block, inline table and table cell elements
+-->
+<!-- NAV BAR LOGO/BRAND -->
+<nav class="navbar navbar-expand-md  navbar-dark bg-dark">
+    <div class="container">
+      <span class="align-bottom">
+        <h5> <a href="index.html" class="navbar-brand">Glozzom</a></h5>
+      </span>
+    <!-- NAV BAR MENUS -->
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+<!-- We are giving our home menu an id of home so when the home is clicked it takes us to the top which is the <body> so we need to place this home id inside the body tag also which we've done -->
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link menu2">About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="services.html" class="nav-link menu3 active">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a href="blog.html" class="nav-link menu4">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link menu5">Contact</a>
+            </li>
+        
+            </ul>
+          </div>
+      </div>
+        </nav>
+
+
+<!-- ABOUT US SECTION -->
+<section id="page-header" class="py-5">
+    <div class="container text-center">
+      <h1>Services</h1>
+      <p>Aute culpa occaecat cupidatat eu pariatur asjfeas.</p>
+    </div>
+</section>
+
+<!-- SERVICE PLANS -->
+<section id="service-plans" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-sm-0">
+                    <div class="card text-center">
+                            <div class="card-header">
+                                <h3>Service Plan One</h3>
+                            </div>
+                            <div class="card-block">
+                                <h4 class="card-title mt-3">$59.99/Month</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+
+                                <ul class="list-group mx-3">
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature One
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Five
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Six
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Four
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Five
+                                        </li>
+                                        <a href="#" class="btn btn-danger btn-block my-2">Get It</a>
+                                      </ul>
+                            </div>
+                            <div class="card-footer text-muted">
+                               <strong> 1 Year </strong> plan
+                            </div>
+                        </div>
+                
+
+            </div>
+
+            <div class="col-md-4 mb-3 mb-sm-0">
+                    <div class="card text-center">
+                            <div class="card-header">
+                                <h3>Service Plan Five</h3>
+                            </div>
+                            <div class="card-block">
+                                <h4 class="card-title mt-3">$109.99/Month</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+
+                                <ul class="list-group mx-3">
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature One
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Five
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Six
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Four
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Five
+                                        </li>
+                                        <a href="#" class="btn btn-primary btn-block my-2">Get It</a>
+                                      </ul>
+                            </div>
+                            <div class="card-footer text-muted">
+                               <strong> 1 Year </strong> plan
+                            </div>
+                        </div>
+                
+
+            </div>
+
+            <div class="col-md-4 mb-3 mb-sm-0">
+                    <div class="card text-center">
+                            <div class="card-header">
+                                <h3>Service Plan Six</h3>
+                            </div>
+                            <div class="card-block">
+                                <h4 class="card-title mt-3">$149.99/Month</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+
+                                <ul class="list-group mx-3">
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature One
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Five
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Six
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Four
+                                        </li>
+                                        <li class="list-group-item text-left">
+                                          <i class="fa fa-check"></i> Feature Five
+                                        </li>
+                                        <a href="#" class="btn btn-success btn-block my-2">Get It</a>
+                                      </ul>
+                            </div>
+                            <div class="card-footer text-muted">
+                               <strong> 1 Year </strong> plan
+                            </div>
+                        </div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FAQ SECTION -->
+<section id="faq" class="py-5 bg-dark">
+        <div class="container">
+          <h1 class="text-center">Frequently Asked Questions</h1>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+                    <div id="accordion">
+                            <div class="container">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card text-center">
+                                      <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              <h5>Question One?</h5>
+                                          </button>
+                                        </h5>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eligendi possimus eaque excepturi assumenda error enim quos, libero, accusantium beatae asperiores odit neque dignissimos ducimus et vel aut repudiandae ut? Quod ducimus minima perspiciatis, minus, quas, sunt architecto odit suscipit id ut, iure. Libero accusamus nihil laudantium iste eligendi.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card text-center">
+                                      <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <h5>Question Two?</h5>
+                                          </button>
+                                        </h5>
+                                      </div>
+                                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eligendi possimus eaque excepturi assumenda error enim quos, libero, accusantium beatae asperiores odit neque dignissimos ducimus et vel aut repudiandae ut? Quod ducimus minima perspiciatis, minus, quas, sunt architecto odit suscipit id ut, iure. Libero accusamus nihil laudantium iste eligendi.
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="card text-center">
+                                      <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                              <h5>Question Three?</h5>
+                                          </button>
+                                        </h5>
+                                      </div>
+                                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eligendi possimus eaque excepturi assumenda error enim quos, libero, accusantium beatae asperiores odit neque dignissimos ducimus et vel aut repudiandae ut? Quod ducimus minima perspiciatis, minus, quas, sunt architecto odit suscipit id ut, iure. Libero accusamus nihil laudantium iste eligendi.
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                    <div id="accordion">
+                                            <div class="container">
+                                                <div class="accordion" id="accordionExample">
+                                                    <div class="card text-center">
+                                                      <div class="card-header" id="headingFour">
+                                                        <h5 class="mb-0">
+                                                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                                              <h5>Question Four?</h5>
+                                                          </button>
+                                                        </h5>
+                                                      </div>
+                                                  
+                                                      <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eligendi possimus eaque excepturi assumenda error enim quos, libero, accusantium beatae asperiores odit neque dignissimos ducimus et vel aut repudiandae ut? Quod ducimus minima perspiciatis, minus, quas, sunt architecto odit suscipit id ut, iure. Libero accusamus nihil laudantium iste eligendi.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card text-center">
+                                                      <div class="card-header" id="headingFive">
+                                                        <h5 class="mb-0">
+                                                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                            <h5>Question Five?</h5>
+                                                          </button>
+                                                        </h5>
+                                                      </div>
+                                                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eligendi possimus eaque excepturi assumenda error enim quos, libero, accusantium beatae asperiores odit neque dignissimos ducimus et vel aut repudiandae ut? Quod ducimus minima perspiciatis, minus, quas, sunt architecto odit suscipit id ut, iure. Libero accusamus nihil laudantium iste eligendi.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card text-center">
+                                                      <div class="card-header" id="headingSix">
+                                                        <h5 class="mb-0">
+                                                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                              <h5>Question Six?</h5>
+                                                          </button>
+                                                        </h5>
+                                                      </div>
+                                                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quia eligendi possimus eaque excepturi assumenda error enim quos, libero, accusantium beatae asperiores odit neque dignissimos ducimus et vel aut repudiandae ut? Quod ducimus minima perspiciatis, minus, quas, sunt architecto odit suscipit id ut, iure. Libero accusamus nihil laudantium iste eligendi.
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                            </div>
+          </div>
+        </div>
+</section>
+                            
+          
+    
+
+
+<!--All website contents terminates here -->
+<footer id="footer">
+<p class="text-white text-center py-3">Copyright 2018 &copy; 2018 Glozzom</p>
+</footer>
+
+
+
+
+
+
+
+
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+  <script type="text/javascript" src="js/slick.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
